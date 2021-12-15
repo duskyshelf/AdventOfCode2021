@@ -109,9 +109,7 @@ export const process2 = async (fileName: string) => {
     }
   }
 
-
   return parseInt(biggerFilter[0], 2) * parseInt(smallerFilter[0], 2)
-
 }
 
 // console.log(await process('/Day3/input.txt'))
