@@ -8,8 +8,6 @@ Deno.test("part 1 example",
   },
 );
 
-
-
 Deno.test("line calculator",
   async () => {
     const value = await calculateLine('acedgfb cdfbe gcdfa fbcad dab cefabd cdfgeb eafb cagedb ab | cdfeb fcadb cdfeb cdbaf')
